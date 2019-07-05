@@ -1,7 +1,7 @@
 # ships
 
-### npm install
+ npm install
 
-### node server.js
+ node server.js
 
-### открыть http://yourhost:9000/ в браузере
+ открыть http://yourhost:9000/ в браузере
