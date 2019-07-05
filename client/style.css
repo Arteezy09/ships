@@ -1,0 +1,103 @@
+/* Disable bootstrap 1200px */
+@media (min-width: 1200px) {
+    .container {
+        width: 800px;
+    }
+}
+
+html, body, .container {
+    height: 100%;
+    background-color: #00ACC1;
+}
+.container {
+    display: table;
+    vertical-align: middle;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h3 {
+    margin-top: 5px;
+}
+
+.panel, .panel-heading {
+    border-radius: 0px;
+    border-color: #333;
+}
+
+.panel, .panel-body {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.panel-primary > .panel-heading {
+    border-radius: 0px;
+    background-color: #009688;
+    border-color: #333;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:focus {
+    border-radius: 0px;
+    background-color: #333;
+    border-color: #333;   
+}
+
+.btn-primary:hover {
+    background-color: #000000;
+    border-color: #333;
+}
+
+#messages-list {
+    height: 100px;
+    overflow-y: scroll;
+    margin-top: 10px;
+}
+
+#messages {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#messages li {
+    margin: 0px;
+    padding: 0px;
+}
+
+.list-group-item:first-child, .list-group-item:last-child, .form-control {
+    border-radius: 0px;
+}
+
+.list-group-item {
+    border-color: #ccc;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ccc;
+}
+
+#turn-status {
+    padding: 10px 0px;
+    margin: 25px 0 0 0;
+}
+
+#turn-status a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.alert-your-turn, .alert-winner {
+    color: #000000;
+    background-color: #66BB6A;
+    border-color: #616161;
+}
+
+.alert-opponent-turn, .alert-loser {
+    color: #000000;
+    background-color: #EF5350;
+    border-color: #616161;
+}
+
